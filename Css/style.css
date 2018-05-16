@@ -281,6 +281,9 @@ img {
     position: relative;
     float: left;
 }
+.top .nav .nav-links .links:hover{
+    box-shadow: inset 0 -4px 0 0 #0287e9;
+}
 
 .top .nav .nav-links .links a{
     display: block;
@@ -288,7 +291,9 @@ img {
     padding: 0 15px;
     font-size: .16rem;
 }
-
+.top .nav .nav-links .links:hover a {
+    color: #0287e9;
+}
 .top .nav .nav-links .on a{
     color: #0287e9;
 }
@@ -438,7 +443,6 @@ img {
     width: 50%;
 }
 
-
 .content .account-box{
     width: 960px;
     height: 310px;
@@ -569,6 +573,111 @@ img {
 .company-logo {
     background: url('../Images/logobg.jpg') no-repeat;
     background-position: center center;
+}
+
+.content .reg-flow {
+    margin-top: 50px
+}
+
+.content .reg-flow li{
+    float: left;
+    width: 25%;
+    height: 262px;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -ms-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.content .reg-flow li:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -ms-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+
+.content .reg-flow li .flow-box {
+    height: 100%;
+    background: url('../Images/reg-flow1.png') no-repeat top center;
+}
+
+.content .reg-flow li .flow-box:hover .ready {
+    color: #117ab5;
+}
+
+.content .reg-flow li .flow-box .num {
+    padding: 20px 0 35px;
+    color: #fff;
+    font-size: .26rem;
+}
+
+.content .reg-flow li .flow-box .ready {
+    margin-bottom: 10px;
+    font-size: .18rem;
+}
+
+.content .reg-flow li .flow-box p{
+    color: #999;
+}
+
+.content .gain-folder-box{
+    margin-top: 30px;
+}
+
+.content .gain-folder-box li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.content .gain-folder-box li .folder-nam{
+    height: 40px;
+    font-size: .14rem;
+}
+.content .gain-folder-box li .folder-nam span {
+    display: inline-block;
+    width:  20px;
+    margin-right: 5px;
+    background-color: #4591ff;
+    color: #fff;
+    border-radius: 50%;
+}
+.content .gain-folder-box li img{
+    padding-top: 20px;
+    border-top: 2px solid #4591ff;
+}
+
+.content .success-box{
+    float: left;
+    width: 16.66%;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.content .success-box .success-box-detail{
+    padding-bottom: 20px;
+    border-top: 1px solid #3889ff;
+    font-size: .14rem;
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.1);
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+.content .success-box .success-box-detail:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+
+.content .success-box .success-box-detail img{
+    display: block;
+    margin: 20px auto 0;
+    width: 50%;
 }
 
 footer{
