@@ -348,8 +348,18 @@ img {
     z-index: 1;
     background-attachment: fixed;
 }
+
 .index-fixed-bg.index-bg-1{
     background-image: url(../Images/bigbg1.jpg);
+}
+.index-fixed-bg.index-bg-2 {
+    background-image: url(../Images/bigbg2.jpg);
+}
+.index-fixed-bg.index-bg-3 {
+    background-image: url(../Images/bigbg3.jpg);
+}
+.index-fixed-bg.index-bg-4 {
+    background-image: url(../Images/bigbg4.jpg);
 }
 
 .index-title {
@@ -377,6 +387,300 @@ img {
 .content {
     width: 1190px;
     margin:  75px auto;
+}
+
+.content .reg-list{
+    margin-top: 35px;
+    overflow: hidden;
+}
+
+.content .reg-list li {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.content .reg-list li .reg {
+    width: 100%;
+    height: 125px;
+    line-height: 60px;
+    border: 1px solid #e8e8e8;
+    padding: 30px 50px; 
+    text-align: right;
+    font-size: .14rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content .reg-list li .reg:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    color: #3778ff;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -ms-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.content .reg-list li:first-child .reg{
+    height: 280px;
+    text-align: center;
+}
+
+.content .reg-list li:first-child .reg img{
+    float: none;
+    display: block;
+    margin: 50px auto 0;
+}
+
+.content .reg-list li .reg img {
+    float: left;
+    width: 50%;
+}
+
+
+.content .account-box{
+    width: 960px;
+    height: 310px;
+    margin: 35px auto 0;
+}
+
+.content .account-box li{
+    float: left;
+    width: 480px;
+    height: 310px;
+    padding: 15px;
+    text-align: center;
+ }
+
+.content .account-box li h3{
+    line-height: 60px;
+    font-size: .22rem;
+    color: #79c808;
+    font-weight: 400;
+}
+
+.content .account-box li h3:after{
+    display: block;
+    content: '';
+    width: 60%;
+    height: 2px;
+    margin:0 auto;
+    background-color: #e8e8e8;
+    border-radius: 50%;
+}
+
+.content .account-box li p {
+    max-height: 215px;
+    padding: 30px 10px;
+    line-height: 30px;
+    font-size: .18rem;
+    color: #666;
+}
+
+ .content .account-box li p span {
+    color: #79c808;
+ }
+.content .account-box .account1{
+    background: url('../Images/account1.jpg') no-repeat center;
+}
+.content .account-box .account2{
+    background: url('../Images/account2.jpg') no-repeat center;
+}
+
+
+.content  .worth .worth-list {
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.content  .worth .worth-list li{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.content  .worth .worth-list li .audit-box{
+    border: 1px solid #e8e8e8;
+}
+.content  .worth .worth-list li .condition-box {
+    position: relative;
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+}
+.content .worth .worth-list li .condition-box:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.content .worth .worth-list li .condition-box:hover .condition {
+    color: #0287e9;
+}
+
+.content  .worth .worth-list li .audit-box .condition{
+    margin: 10px 0 20px;
+    font-size: .18rem;
+    color: #333;
+}
+
+.content  .worth .worth-list li .audit-box img{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.content  .worth .worth-list li .audit-box p{
+    font-size: .14rem;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.content .news-center .news-list{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.content .news-center .more-btn {
+    display: block;
+    width: 145px;
+    height: 45px;
+    margin: 30px auto;
+    padding: 0;
+    line-height: 45px;
+    border-radius: 5px;
+    border: 1px solid #117ab5;
+    color: #117ab5;
+    font-size: .14rem;
+    text-align: center;
+}
+.content .news-center .more-btn:hover{
+    color: #fff;
+    background-color: #117ab5;
+}
+.content .company-logo-box {
+    margin: 80px 0 0;
+}
+
+.content .company-logo-box .logo-list li {
+    float: left;
+    width: 25%;
+}
+.company-logo {
+    background: url('../Images/logobg.jpg') no-repeat;
+    background-position: center center;
+}
+
+footer{
+    height: 350px;
+    background-color: #333;
+}
+
+.footer{
+    position: relative;
+    width: 1190px;
+    height: 350px;
+    padding-top: .1px;
+    margin: auto;
+}
+
+.footer .bottom-list {
+    float: left;
+    margin: 30px 0 30px;
+}
+
+.footer .bottom-list li {
+    float: left;
+    width: 120px;
+    height: 190px;
+    padding: 0 15px;
+}
+
+.footer .bottom-list li p{
+    line-height: 30px;
+    color: #fcfcfc;
+    font-size: .14rem;
+    font-weight: 700;
+}
+
+.footer .bottom-list li a{
+    display: block;
+    margin-top: 16px;
+    color: #bfbfbf;
+    font-size: .12rem;
+}
+
+.footer .bottom-list .list-address{
+    width: 245px;
+}
+
+.footer .weixin-dby{
+    position: absolute;
+    left: 615px;
+    top: 35px;
+}
+
+.footer .weixin-dby dd {
+    width: 123px;
+    height: 123px;
+    background: url('../Images/dby.png') center no-repeat;
+    background-size: 100%;
+}
+
+.footer .weixin-dby dt{
+    text-align: center;
+    color: #fff;
+}
+
+.footer .company-num{
+    float: right;
+    margin-top: 32px;
+    padding: 0 0 20px 40px;
+    text-align: right;
+    color: #fff;
+    box-shadow: -1px 0 0 #454545, -2px 0 0 #212121;
+}
+
+.footer .company-num dd{
+    margin: 10px 0;
+}
+.footer .company-num dt{
+    font-size: .28rem;
+}
+
+.footer .company-num .email{
+    float: right;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer .company-num .email a{
+    display: block;
+    color: #fff;
+}
+
+.footer .bottom-link{
+    border-top: 1px solid #464646;
+    text-align: center;
+    color: #bbb;
+}
+
+.footer .bottom-link p a{
+    color: #bbb;
+}
+.footer .bottom-link .copyright a{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.footer .bottom-link .num-b a{
+    display: inline-block;
+    padding-left: 25px;
+    color: #939393;
+    background: url('../Images/ga_ico.png') left no-repeat;
 }
 
 @media (max-width: 1199px){

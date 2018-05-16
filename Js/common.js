@@ -11,7 +11,3 @@ $(window).resize(function() // 绑定到窗口的这个事件中
     // 以默认比例值乘以当前窗口宽度,得到该宽度下的相应FONT-SIZE值
     $('html').css('font-size', rem + "px");
 });
-
-$(function(){
-
-})
