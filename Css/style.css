@@ -680,6 +680,321 @@ img {
     width: 50%;
 }
 
+.content .reg-btn{
+    display: block;
+    width: 165px;
+    height: 48px;
+    margin: 20px auto 0;
+    line-height: 50px;
+    border: 1px solid #3889ff;
+    color: #3889ff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content .chose-juzhang-box {
+    margin-top: 50px;
+}
+
+.content .chose-juzhang-box .juzhang-bg{
+    width: 100%;
+    height: 141px;
+    background: url('../Images/company-reg-bg.png') no-repeat top center;
+}
+
+.content .chose-juzhang-box .juzhang-bg .pk-title {
+    width: 50%;
+    padding: 0 0 0 110px;
+    line-height: 141px;
+    text-align: center;
+    font-size: .18rem;
+}
+
+.content .chose-juzhang-box .juzhang-bg .pk-title:nth-child(2){
+    padding: 0 110px 0 0;
+}
+
+.content .pk-box{
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content .pk-box .pk-list{
+    width: 365px;
+    background-color: #fff;
+}
+.content .pk-box .pk-title-list{
+    width: 122px;
+    padding: 25px 20px;
+}
+.content .pk-box .pk-title-list li{
+    line-height: 33px;
+    color: #3889ff;
+    border: 1px solid #3889ff;
+    border-radius: 5px;
+}
+.content .pk-box  ul{
+    padding: 25px 0 20px;
+    margin-top: -25px;
+}
+.content .pk-box  ul li{
+    margin-top: 15px;
+    line-height: 35px;
+    font-size: .16rem;
+}
+
+.content .agent-list{
+    width: 100%;
+    height: 238px;
+    background: url('../Images/agent.png') no-repeat top center;
+}
+
+.content .agent-list li {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    text-align: center;
+}
+.content .agent-list li:first-child{
+    padding-left: 0;
+}
+
+.content .agent-list li .agent-list-box{
+    padding: 25px;
+}
+
+.content .agent-list li:hover .agent-list-title {
+    color: #5697fe;
+}
+
+.content .agent-list li .agent-list-title{
+    font-size: .22rem;
+}
+.content .agent-list li p{
+    margin-top: 10px;
+    font-size: .18rem;
+    color: #999;
+}
+.content .agent-list li a{
+    display: block;
+    width: 50%;
+    height: 35px;
+    line-height: 33px;
+    padding: 0;
+    margin:25px auto 0;
+    border: 1px solid #5697fe;
+    border-radius: 5px;
+    color: #5697fe;
+    font-size: .14rem;
+}
+.content .agent-list li a:hover{
+    color: #fff;
+    background: #019dff;
+    background: -webkit-linear-gradient(right,#0b64ff,#00a0ff);
+    background: -o-linear-gradient(right,#0b64ff,#00a0ff);
+    background: -moz-linear-gradient(right,#0b64ff,#00a0ff);
+    background: linear-gradient(to right,#0b64ff,#00a0ff);
+}
+
+.content .need-box{
+    float: left;
+    width: 50%;
+    padding: 20px 10px;
+}
+.content .need-box .need{
+    background-color: #fff;
+}
+.content .need-box .need .need-name{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #97d0fb;
+    color: #fff;
+    text-align: center;
+    font-size: .18rem;
+}
+.content .need-box .need ul{
+    padding: 10 0;
+    overflow: hidden;
+}
+
+.content .need-box .need ul li{
+    padding: 10px 20px;
+    line-height: 25px;
+    font-size: .16rem;
+    color: #666;
+    border-top: 1px dashed #c8c8c8;
+}
+
+.content .need-box .need ul li:first-child{
+    border-top: 0;
+}
+
+.content .need-box .need:hover .need-name {
+    background-color: #3889ff;
+}
+
+.content .need-box .need ul .half-li{
+    float: left;
+    width: 50%;
+}
+
+.content .gain-box{
+    margin-top: 20px;
+    padding: 25px 0;
+    border-top: 1px solid #5399ff;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+.content .gain-box li{
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.content .gain-box li span{
+    display: inline-block;
+    padding: 25px 0;
+    border-top: 1px dashed #e8e8e8;
+    cursor: pointer;
+}
+
+.content .gain-box li span:hover {
+    color: #5399ff;
+}
+
+.content .gain-box li:nth-child(1) span{
+    border-top: 0;
+}
+.content .gain-box li:nth-child(2) span{
+    border-top: 0;
+}
+.content .gain-box li:nth-child(3) span{
+    border-top: 0;
+}
+.content .gain-box li:nth-child(4) span{
+    border-top: 0;
+}
+
+.content .audit-flow{
+    margin-top: 50px;
+}
+
+.content .audit-flow li{
+    float: left;
+    width: 16.66%;
+    height: 278px;
+    padding: 10px;
+    background: url('../Images/audit1.jpg') no-repeat top center;
+}
+
+.content .audit-flow li:nth-child(2){
+    background: url('../Images/audit2.jpg') no-repeat top center;
+}
+.content .audit-flow li:nth-child(3){
+    background: url('../Images/audit3.jpg') no-repeat top center;
+}
+.content .audit-flow li:nth-child(4){
+    background: url('../Images/audit4.jpg') no-repeat top center;
+}
+.content .audit-flow li:nth-child(5){
+    background: url('../Images/audit5.jpg') no-repeat top center;
+}
+.content .audit-flow li:nth-child(6){
+    background: url('../Images/audit6.jpg') no-repeat top center;
+}
+
+.content .audit-flow li .flow-box{
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+.content .audit-flow li:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+.content .audit-flow li .flow-box .box-title{
+    padding: 30px 20px 10px;
+    font-size: .18rem;
+}
+
+.content .audit-flow li:hover .box-title{
+    color: #0287e9;
+}
+
+.content .audit-flow li .flow-box a{
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: -12.5px;
+    border-radius: 50%;
+    background-color: #0287e9;
+    text-align: center;
+    color: #fff;
+}
+
+
+.content .our-service{
+    margin-top: 50px;
+}
+
+.content .our-service li{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+
+.content .our-service li .servic-box{
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1); 
+    overflow: hidden;
+    border: 1px solid #fff
+}
+
+.content .our-service li .service-box:hover {
+    border-color: #39a5fc;
+}
+.content .our-service li .service-box:hover .service-box-title {
+    background-color: #39a5fc;
+}
+
+.content .our-service li .servic-box .service-box-title{
+    position: relative;
+    height: 75px;
+    line-height: 60px;
+    background-color: #60caf1;
+    color: #fff;
+    font-size: .18rem;
+}
+.content .our-service li .servic-box .service-box-title i{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: -25px;
+    background-clip: #60caf1;
+    border: 2px solid #fff;
+    border-radius: 50%; 
+}
+
+.content .our-service li .servic-box p{
+    padding: 35px 20px 15px;
+    font-size: .14rem;
+}
+
+
 footer{
     height: 350px;
     background-color: #333;
