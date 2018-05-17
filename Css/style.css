@@ -1002,7 +1002,31 @@ img {
     font-size: .14rem;
 }
 
+.content .youshi {
+    height: 125px;
+    padding: 35px 0;
+    overflow: hidden;
+}
 
+.content .youshi li {
+    float: left;
+    width: 10%;
+    padding: 0 10px;
+}
+.content .youshi li a{
+    display: block;
+    line-height: 53px;
+    border: 1px solid  #dcdddd;
+    text-align: center;
+    border-radius: 5px;
+    font-size: .18rem;
+    background-color: #fff;
+}
+
+.content .youshi li a:hover{
+    background-color: #117ab5;
+    color: #fff;
+}
 
 footer{
     height: 350px;
