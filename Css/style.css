@@ -954,7 +954,7 @@ img {
     text-align: center;
 }
 
-.content .our-service li .servic-box{
+.content .our-service li .service-box{
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0,0,0,.1); 
     overflow: hidden;
@@ -968,7 +968,7 @@ img {
     background-color: #39a5fc;
 }
 
-.content .our-service li .servic-box .service-box-title{
+.content .our-service li .service-box .service-box-title{
     position: relative;
     height: 75px;
     line-height: 60px;
@@ -976,7 +976,7 @@ img {
     color: #fff;
     font-size: .18rem;
 }
-.content .our-service li .servic-box .service-box-title i{
+.content .our-service li .service-box .service-box-title i{
     position: absolute;
     bottom: -25px;
     left: 50%;
@@ -984,15 +984,24 @@ img {
     height: 50px;
     line-height: 50px;
     margin-left: -25px;
-    background-clip: #60caf1;
+    background-color: #60caf1;
     border: 2px solid #fff;
     border-radius: 50%; 
 }
 
-.content .our-service li .servic-box p{
+.content .our-service li .service-box .service-box-title i:before {
+    font-size: 34px;
+}
+
+.content .our-service li .service-box:hover .service-box-title i {
+    background-color: #39a5fc;
+}
+
+.content .our-service li .service-box p{
     padding: 35px 20px 15px;
     font-size: .14rem;
 }
+
 
 
 footer{
