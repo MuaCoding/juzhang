@@ -304,6 +304,10 @@ img {
     top: 0;
     right: 20px;
 }
+.top .nav .nav-btn i:before{
+    font-size: .24rem;
+    color: #333;
+}
 
 .banner{
     width: 100%;
@@ -1238,6 +1242,60 @@ img {
     height: 300px;
 }
 
+.content .map .contact-list{
+    padding: 20px 100px;
+    overflow: hidden;
+    font-size: .14rem;
+}
+.content .map .contact-list li{
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    color: #999;
+    text-align: center;
+}
+
+.content .map .contact-list li .contact-icon1{
+    width: 0;
+    margin: 0 auto;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    border-bottom: 30px solid #999;
+}
+
+.content .map .contact-list li .contact-icon2{
+    position: relative;
+    width: 104px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #999;
+}
+
+.content .map .contact-list li .contact-icon3{
+    width: 0;
+    margin: 0 auto 30px;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    border-top: 30px solid #999;
+}
+
+.content .map .contact-list li i{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -30px;
+}
+.content .map .contact-list li i:before{
+    font-size: 60px;
+    color: #fff;
+}
+.content .map .contact-list li .phone{
+    padding: 20px 0 0;
+    margin: 20px;
+    border-top: 1px solid #e8e8e8;
+    font-size: .12rem;
+}
 footer{
     height: 350px;
     background-color: #333;
@@ -1357,6 +1415,57 @@ footer{
 
     .head{
         display: none;
+    }
+
+    .top{
+        z-index: 1001;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 70px;
+    }
+
+    .top .logo{
+        margin-left: 10px;
+    }
+
+    .top .nav{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        box-shadow: 0 0 15px rgba(0,0,0,.1);
+        -webkit-box-shadow: 0 0 15px rgba(0,0,0,.1)
+    }
+
+    .top .nav .logo{
+        height: 100%;
+    }
+
+    .top .nav .logo img{
+        height: 100%;
+        width: auto;
+    }
+
+    .top .nav-links{
+        position: fixed;
+        top: 70px;
+        right: -70%;
+        width: 70px;
+        height: 100%;
+        background-color: #EEE;
+        -webkit-transition: all .3s ease-in-out 0s;
+        -moz-transition: all .3s ease-in-out 0s;
+        -ms-transition: all .3s ease-in-out 0s;
+        transition: all .3s ease-in-out 0s
+    }
+
+    .top .nav-links li a{
+        line-height: 40px;
+        color: #fff;
+    }
+
+    .top .nav-btn{
+        display: block !important;
     }
 }
 
