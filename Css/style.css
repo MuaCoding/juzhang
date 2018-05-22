@@ -329,6 +329,7 @@ img {
 .index-title-bg{
     background: url('../Images/index-bg.jpg') no-repeat center center!important;
 }
+
 .margin-box {
     margin: 75px auto;
 }
@@ -1139,9 +1140,7 @@ img {
     line-height: 20px;
     overflow: hidden;
 }
-.content .news-center{
-    margin: 75px auto;
-}
+
 
 .content .news-center .step{
     width: 100%;
@@ -1412,7 +1411,9 @@ footer{
     html{
         font-size: 75px;
     }
-
+    body{
+        margin-top: 70px;
+    }
     .head{
         display: none;
     }
@@ -1458,18 +1459,32 @@ footer{
         -ms-transition: all .3s ease-in-out 0s;
         transition: all .3s ease-in-out 0s
     }
-
+    .top .nav-links li  {
+        float: none !important;
+    }
     .top .nav-links li a{
-        line-height: 40px;
+        line-height: 40px !important;
         color: #fff;
     }
 
     .top .nav-btn{
         display: block !important;
     }
+    .margin-box{
+        margin: 25px auto;
+    }
+    .content{
+        width: 100%;
+        margin: 20px 0;
+        padding: 0 10px;
+    }
 }
 
 @media (max-width: 768px){
+
+    html{
+        font-size: 45px;
+    }
 
     .banner .pc-banner{
         display: none;
@@ -1477,4 +1492,74 @@ footer{
     .banner .mobile-banner{
         display: inline;
     }
+
+    .index-title .small-title{
+        margin-top: 10px;
+    }
+
+    .index-fixed-bg{
+        min-height: 200px;
+    }
+
+    .content .company-reg .reg-list{
+        margin-top: 5px;
+    }
+
+    .content .company-reg .reg-list li{
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .content .company-reg .reg-list li .reg{
+        height: auto;
+        padding: 20px 0 0;
+        text-align: center;
+    }
+
+    .content .company-reg .reg-list li .reg img{
+        float: none;
+        display: block;
+        margin: 10px auto 0;
+    }
+
+    .content .account-box{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .content .account-box li{
+        width: 100%;
+        height: auto;
+        margin: 15px;
+        background: none !important;
+        border: 1px solid #e8e8e8;
+    }
+
+    .content .worth .worth-list{
+        margin-top: 10px;
+    }
+    .content .worth .worth-list li{
+        width: 50%;
+    }
+    .content .worth .worth-list li .condition-box {
+        padding: 30px 10px 0;
+    }
+    .content .worth .worth-list li .condition-box:before{
+        display: none;
+    }
+    .content .worth .worth-list li .audit-box{
+        padding: 10px;
+    }
+    .content .worth .worth-list li .condition-box .condition{
+        margin: 10px 0;
+    }
+    .content .news-center .news-list {
+        margin-top: 10px;
+    }
+
+    .company-logo {
+        background-color: #999;
+    }
+
 }
